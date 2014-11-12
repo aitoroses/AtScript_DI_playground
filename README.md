@@ -1,3 +1,7 @@
+## Fork
+
+This is a fork that embeds a build of di@2.0 dependency injection framework from **vojtajina** inside AtScript playground
+
 ## AtScript Playground
 
 This is an empty repo to make it easy to experiment with [AtScript].

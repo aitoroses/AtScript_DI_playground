@@ -6,7 +6,7 @@ var rename_ = require('gulp-rename');
 var TRACEUR_OPTIONS = require('./config').traceur;
 var PATH = {
   BUILD: './build/',
-  SRC: './src/**/*.ats',
+  SRC: './src/**/*.{ats, js}',
   TEST: './test/**/*.ats'
 };
 

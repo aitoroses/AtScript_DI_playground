@@ -12,8 +12,8 @@
     "url": "https://github.com/vojtajina/atscript-playground/issues"
   },
   "dependencies": {
-    "traceur": "^0.0.72",
-    "requirejs": "^2.1.15"
+    "requirejs": "^2.1.15",
+    "traceur": "^0.0.72"
   },
   "devDependencies": {
     "assert": "angular/assert#dist",

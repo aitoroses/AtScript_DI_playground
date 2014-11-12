@@ -1,5 +1,15 @@
 import {Something} from './something';
+import {Injector} from 'di';
+import {Kitchen} from './kitchen/kitchen'
+import {MockHeater} from './kitchen/mock_heater';
 
 var s = new Something();
-
 console.log('1 + 2 is ', s.sum(1, 2));
+
+// using the Kitchen
+
+var injector = new Injector([MockHeater])
+var kitchen = injector.get(Kitchen)
+
+kitchen.makeBreakfast();
+debugger
